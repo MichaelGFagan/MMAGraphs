@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Initializing UFC data\n\nlibrary(tidyverse)\nlibrary(lubridate)\n\nUFCProcess <- function(df){\n  df$fight.id <- as.character(df$fight.id)\n  df$round <- as.factor(df$round)\n  df$time <- as.character(df$time)\n  df$weight.class.id <- as.factor(df$weight.class.id)\n  df$date <- as.Date(df$date, \"%m/%d/%y\")\n  df$year <- year(df$date)\n  df$month <- month(df$date)\n  df$day <- day(df$date)\n  df$minute <- as.integer(substr(df$time, 1, 1))\n  df$second <- as.integer(substr(df$time, 3, 4))\n  df$round.seconds <- df$minute * 60 + df$second\n  df$fight.seconds <- (as.integer(df$round) - 1) * 300 + df$round.seconds\n  df$title.fight <- as.factor(df$title.fight)\n  df$five.rounds <- as.factor(df$five.rounds)\n  df$gender <- as.factor(ifelse(df$weight.class.id == 24 | \n                                  df$weight.class.id == 25 |\n                                  df$weight.class.id == 32 | \n                                  df$weight.class.id == 88, \"Female\", \"Male\"))\n  return(df)\n}\n\nufc <- read.csv(\"UFCMaster.csv\")\n\nufc <- UFCProcess(ufc)\n",
+    "created" : 1504628063542.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1836299395",
+    "id" : "50802D9C",
+    "lastKnownWriteTime" : 1504889073,
+    "last_content_update" : 1504889073484,
+    "path" : "~/Documents/MMAGraphs/UFCinit.R",
+    "project_path" : "UFCinit.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

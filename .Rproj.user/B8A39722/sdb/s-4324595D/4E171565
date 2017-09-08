@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Graphing distance traveled to UFC Rotterdam\n\nrotterdam <- read_csv(\"RotterdamDist.csv\")\n\ncoords <- geocode(rotterdam$fights.out.of)\nrotterdam$lon <- coords$lon\nrotterdam$lat <- coords$lat\n\nrotterdam$dist <- distHaversine(c(rotterdam$lon, rotterdam$lat), c(4.4777, 51.9244))\n\ndist <- distHaversine(as.matrix(coords), c(4.4777, 51.9244))\n\nrotterdam$dist <- dist\nrotterdam$dist.mi <- rotterdam$dist * 0.000621371\n\n\nggplot(rotterdam, aes(x = reorder(fighter, dist.mi), y = dist.mi, fill = dist.mi)) +\n  geom_bar(stat = \"identity\") +\n  theme_bw() +\n  coord_flip() +\n  theme(axis.title.y = element_blank(),\n        legend.title = element_blank()) +\n  ylab(\"Distance (in miles)\") +\n  labs(title = \"'Fights out of' distance to Rotterdam\",\n       subtitle = \"Source: UFC.com profiles\") +\n  scale_fill_continuous(low = \"blue\", high = \"red\")\n",
+    "created" : 1504282256714.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2733304569",
+    "id" : "4E171565",
+    "lastKnownWriteTime" : 1504889112,
+    "last_content_update" : 1504889112148,
+    "path" : "~/Documents/MMAGraphs/RotterdamDist/RotterdamDist.R",
+    "project_path" : "RotterdamDist/RotterdamDist.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

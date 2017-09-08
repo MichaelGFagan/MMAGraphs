@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "ufc <- read.csv(\"UFCMaster.csv\")\n\nstrvol <- select(ufc, winner, date) %>%\n  filter(winner == \"Alexander Volkov\" | winner == \"Stefan Struve\") %>%\n  arrange(winner, date)\n\nstrvol$ufc.win = sequence(rle(as.character(strvol$winner))$lengths) \n\nggplot(data = strvol, aes(x = date, y = ufc.win, color = winner)) +\n  geom_line() +\n  geom_point() +\n  scale_y_continuous(breaks = seq(1, 12)) +\n  scale_x_date(breaks = date_breaks(\"years\"), labels = date_format(\"%Y\")) +\n  theme_bw() +\n  theme(legend.title = element_blank(),\n        axis.text.x = element_text(angle = 90),\n        axis.title.y = element_blank(),\n        axis.title.x = element_blank(),\n        legend.position=\"bottom\",\n        plot.title = element_text(size = 12)) +\n  labs(title = \"Cumulative UFC wins (Stefan Struve, Alexander Volkov)\",\n       subtitle = \"Through August 31, 2017\")\n",
+    "created" : 1504191531811.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2814425601",
+    "id" : "C7A0059",
+    "lastKnownWriteTime" : 1504205168,
+    "last_content_update" : 1504205168201,
+    "path" : "~/Documents/MMAGraphs/StruveVolkovCumWins.R",
+    "project_path" : "StruveVolkovCumWins.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "struve <- read_csv(\"struve.csv\")\nstruve$result <- factor(struve$result)\n\nggplot(struve, aes(x= index, y = reach.dif, fill = result)) +\n  geom_bar(stat = \"identity\") +\n  theme_bw() +\n  scale_x_continuous(breaks = seq(1, 18)) +\n  scale_y_continuous(breaks = seq(0, 12)) +\n  ylab(\"Reach difference\") +\n  theme(axis.title.x = element_blank(),\n        axis.text.x = element_blank(),\n        axis.ticks.x = element_blank(),\n        legend.title = element_blank(),\n        panel.grid.minor.y = element_blank(),\n        panel.grid.major.x = element_blank(),\n        legend.position = \"bottom\") +\n  labs(title = \"Stefan Struve UFC career reach advantage\")\n",
+    "created" : 1504103061496.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3079923657",
+    "id" : "A5BDCE07",
+    "lastKnownWriteTime" : 1504112285,
+    "last_content_update" : 1504112285137,
+    "path" : "~/Documents/MMAGraphs/struve.R",
+    "project_path" : "struve.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
