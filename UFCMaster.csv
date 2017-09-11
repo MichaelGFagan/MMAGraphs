@@ -1,4 +1,15 @@
 fight.id,winner,loser,method,round,time,weight.class.id,event,date,fight.order,title.fight,five.rounds
+UFC2017090901,Amanda Nunes,Valentina Shevchenko,Decision - Split,5,5:00,25,UFC 215: Nunes vs. Shevchenko 2,9/9/17,1,1,1
+UFC2017090902,Rafael dos Anjos,Neil Magny,Submission,1,3:43,4,UFC 215: Nunes vs. Shevchenko 2,9/9/17,2,0,0
+UFC2017090903,Henry Cejudo,Wilson Reis,KO/TKO,2,0:25,8,UFC 215: Nunes vs. Shevchenko 2,9/9/17,3,0,0
+UFC2017090904,Ilir Latifi,Tyson Pedro,Decision - Unanimous,3,5:00,2,UFC 215: Nunes vs. Shevchenko 2,9/9/17,4,0,0
+UFC2017090905,Jeremy Stephens,Gilbert Melendez,Decision - Unanimous,3,5:00,6,UFC 215: Nunes vs. Shevchenko 2,9/9/17,5,0,0
+UFC2017090906,Ketlen Vieira,Sara McMann,Submission,2,4:16,25,UFC 215: Nunes vs. Shevchenko 2,9/9/17,6,0,0
+UFC2017090907,Sarah Moras,Ashlee Evans-Smith,Submission,1,2:51,25,UFC 215: Nunes vs. Shevchenko 2,9/9/17,7,0,0
+UFC2017090908,Rick Glenn,Gavin Tucker,Decision - Unanimous,3,5:00,6,UFC 215: Nunes vs. Shevchenko 2,9/9/17,8,0,0
+UFC2017090909,Alex White,Mitch Clarke,KO/TKO,2,4:36,5,UFC 215: Nunes vs. Shevchenko 2,9/9/17,9,0,0
+UFC2017090910,Arjan Bhullar,Luis Henrique,Decision - Unanimous,3,5:00,1,UFC 215: Nunes vs. Shevchenko 2,9/9/17,10,0,0
+UFC2017090911,Kajan Johnson,Adriano Martins,KO/TKO,3,0:49,5,UFC 215: Nunes vs. Shevchenko 2,9/9/17,11,0,0
 UFC2017090201,Alexander Volkov,Stefan Struve,KO/TKO,3,3:30,1,UFC Fight Night 115: Volkov vs. Struve,9/2/17,1,0,1
 UFC2017090202,Siyar Bahadurzada,Rob Wilkinson,KO/TKO,2,3:10,3,UFC Fight Night 115: Volkov vs. Struve,9/2/17,2,0,0
 UFC2017090203,Marion Reneau,Talita Bernardo,KO/TKO,3,4:54,25,UFC Fight Night 115: Volkov vs. Struve,9/2/17,3,0,0
@@ -2733,7 +2744,7 @@ UFC2011030306,Danny Castillo,Joe Stevenson,Decision - Unanimous,3,5:00,5,UFC on 
 UFC2011030307,Shane Roller,Thiago Tavares,KO/TKO,2,1:28,5,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,7,0,0
 UFC2011030308,Takeya Mizugaki,Reuben Duran,Decision - Split,3,5:00,7,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,8,0,0
 UFC2011030309,Dongi Yang,Rob Kimmons,KO/TKO,2,4:47,3,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,9,0,0
-UFC2011030310,Rousimar Palhares,Dave Branch,Submission,2,1:44,3,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,10,0,0
+UFC2011030310,Rousimar Palhares,David Branch,Submission,2,1:44,3,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,10,0,0
 UFC2011030311,Igor Pokrajac,Todd Brown,KO/TKO,1,5:00,2,UFC on Versus 3: Sanchez vs. Kampmann,3/3/11,11,0,0
 UFC2011022601,BJ Penn,Jon Fitch,Draw,3,5:00,4,UFC 127: Penn vs. Fitch,2/26/11,1,0,0
 UFC2011022602,Michael Bisping,Jorge Rivera,KO/TKO,2,1:54,3,UFC 127: Penn vs. Fitch,2/26/11,2,0,0
@@ -2801,7 +2812,7 @@ UFC2010120407,Ian Loveland,Tyler Toner,Decision - Unanimous,3,5:00,6,The Ultimat
 UFC2010120408,Kyle Watson,Sako Chivitchian,Decision - Unanimous,3,5:00,5,The Ultimate Fighter 12: Team GSP vs. Team Koscheck Finale,12/4/10,8,0,0
 UFC2010120409,Nick Pace,Will Campuzano,Submission,3,4:33,7,The Ultimate Fighter 12: Team GSP vs. Team Koscheck Finale,12/4/10,9,0,0
 UFC2010120410,Pablo Garza,Fredson Paixao,KO/TKO,1,0:51,6,The Ultimate Fighter 12: Team GSP vs. Team Koscheck Finale,12/4/10,10,0,0
-UFC2010120411,Dave Branch,Rich Attonito,Decision - Unanimous,3,5:00,3,The Ultimate Fighter 12: Team GSP vs. Team Koscheck Finale,12/4/10,11,0,0
+UFC2010120411,David Branch,Rich Attonito,Decision - Unanimous,3,5:00,3,The Ultimate Fighter 12: Team GSP vs. Team Koscheck Finale,12/4/10,11,0,0
 UFC2010112001,Quinton Jackson,Lyoto Machida,Decision - Split,3,5:00,2,UFC 123: Rampage vs. Machida,11/20/10,1,0,0
 UFC2010112002,BJ Penn,Matt Hughes,KO/TKO,1,0:21,4,UFC 123: Rampage vs. Machida,11/20/10,2,0,0
 UFC2010112003,Maiquel Falcao,Gerald Harris,Decision - Unanimous,3,5:00,3,UFC 123: Rampage vs. Machida,11/20/10,3,0,0
@@ -2861,7 +2872,7 @@ UFC2010091503,Jim Miller,Gleison Tibau,Decision - Unanimous,3,5:00,5,UFC Fight N
 UFC2010091504,Cole Miller,Ross Pearson,Submission,2,1:49,5,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,4,0,0
 UFC2010091505,Yves Edwards,John Gunderson,Decision - Unanimous,3,5:00,5,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,5,0,0
 UFC2010091506,Kyle Kingsbury,Jared Hamman,Decision - Unanimous,3,5:00,2,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,6,0,0
-UFC2010091507,Dave Branch,Tomasz Drwal,Decision - Unanimous,3,5:00,3,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,7,0,0
+UFC2010091507,David Branch,Tomasz Drwal,Decision - Unanimous,3,5:00,3,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,7,0,0
 UFC2010091508,Rich Attonito,Rafael Natal,Decision - Unanimous,3,5:00,3,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,8,0,0
 UFC2010091509,Anthony Waldburger,David Mitchell,Decision - Unanimous,3,5:00,4,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,9,0,0
 UFC2010091510,Brian Foster,Forrest Petz,KO/TKO,1,1:07,4,UFC Fight Night 22: Marquardt vs. Palhares,9/15/10,10,0,0
@@ -2904,7 +2915,7 @@ UFC2010070305,George Sotiropoulos,Kurt Pellegrino,Decision - Unanimous,3,5:00,5,
 UFC2010070306,Brendan Schaub,Chris Tuchscherer,KO/TKO,1,1:07,1,UFC 116: Lesnar vs. Carwin,7/3/10,6,0,0
 UFC2010070307,Ricardo Romero,Seth Petruzelli,Submission,2,3:05,2,UFC 116: Lesnar vs. Carwin,7/3/10,7,0,0
 UFC2010070308,Kendall Grove,Goran Reljic,Decision - Split,3,5:00,3,UFC 116: Lesnar vs. Carwin,7/3/10,8,0,0
-UFC2010070309,Gerald Harris,Dave Branch,KO/TKO,3,2:35,3,UFC 116: Lesnar vs. Carwin,7/3/10,9,0,0
+UFC2010070309,Gerald Harris,David Branch,KO/TKO,3,2:35,3,UFC 116: Lesnar vs. Carwin,7/3/10,9,0,0
 UFC2010070310,Daniel Roberts,Forrest Petz,Decision - Split,3,5:00,4,UFC 116: Lesnar vs. Carwin,7/3/10,10,0,0
 UFC2010070311,Jon Madsen,Karlos Vemola,Decision - Unanimous,3,5:00,1,UFC 116: Lesnar vs. Carwin,7/3/10,11,0,0
 UFC2010061901,Court McGee,Kris McCray,Submission,2,3:41,3,The Ultimate Fighter 11: Team Liddell vs. Team Ortiz Finale,6/19/10,1,0,0

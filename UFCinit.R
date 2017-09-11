@@ -2,6 +2,7 @@
 
 library(tidyverse)
 library(lubridate)
+library(scales)
 
 UFCProcess <- function(df){
   df$fight.id <- as.character(df$fight.id)
